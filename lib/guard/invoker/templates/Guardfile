@@ -1,0 +1,5 @@
+# Guard-Invoker supports following options with default values:
+# executable: invoker                   # invoker executable name
+guard 'invoker' do
+  watch('Procfile')
+end
